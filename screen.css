@@ -45,12 +45,21 @@ h4{
 
 #top_bar{
     flex-direction: row;
-    gap: 20px;
+    display: flex;
     background-image: url(images/logo.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center right;
     padding: 0px 100px 0px 100px;
+}
+
+#top_bar #back{
+    background: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 15px auto auto -100px;
+    transform: scaleX(-1);
 }
 
 
